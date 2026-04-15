@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Minecraft Jams</title>
+    <title>Jam</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
 
     <nav>
         <h1>Minecraft Jams</h1>
         <a href="index.html">Home</a>
-        <a href="pages/past-jams.html">Past Jams</a>
     </nav>
 
     <main>
-        <h2>Current Jam</h2>
-        <div id="current-jam">
-            <p>No active jam</p>
-        </div>
+        <h2 id="jam-title">Jam Title</h2>
+        <p id="jam-theme">Theme: ...</p>
+
+        <h3>Submissions</h3>
+        <div id="submissions"></div>
     </main>
 
     <script src="script.js"></script>

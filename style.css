@@ -2,6 +2,30 @@ body {
     font-family: Arial, sans-serif;
     background: #111;
     color: #eee;
-    text-align: center;
-    margin-top: 50px;
+    margin: 0;
+}
+
+nav {
+    background: #1a1a1a;
+    padding: 15px;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav a {
+    margin-right: 15px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#current-jam, #submissions {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
 }
